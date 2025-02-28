@@ -22,3 +22,20 @@ while(i < 10)
 
     MessageBox.Show(i.ToString());
 }
+
+### do while文
+do
+{
+    処理;
+}while(条件)
+処理を行ってから条件を見るため、必ず一回は処理が行われる。
+### 例文
+int i = 100;
+
+do{
+    i++;
+}while(i < 10);
+
+MessageBox.Show(i.ToString());
+⇩
+101

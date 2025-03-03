@@ -14,6 +14,43 @@ public void insert()
 ### 使い方②
 public void insert()
     SqlConnection connection = new SqlConnection();
-    connection.Open();
+    try
+    {
+        connection.Open();
+        // 処理
+    }
+    finally
+    {
+        connection.Dispose()
+    }
+// 処理で何が行われてもDisposeされる
+
+### 使い方③
+using(SqlConnection connection = new SqlConnection())
+using(SqlConnection command = new SqlConnection())
+{
     // 処理
-    connection.Dispose()
+}
+// 中でどんな処理が行われようが、抜けた時には必ずDisposeされる
+// 幾つでもusingを書ける
+
+### プライベート変数の場合
+public class Database:IDisposable
+{
+    private SqlDataAdapter _adapter = new SqlDataAdapter();
+}
+    // もし変数内がnullじゃなかったらdisposeする
+    if(_adapter != null)
+    {
+        _adapter.Dispose();
+    }
+// このクラス自体がDisposeされる対象になる。
+このクラスを使う側の書き方
+public Form()
+{
+    InitializeComponent();
+    using(Database db = new Database())
+    {
+        // 処理
+    }
+}

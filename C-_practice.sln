@@ -24,6 +24,10 @@ Global
 		{145180CF-A163-41B2-5D51-6806E7F01F1F} = {377645E0-7459-E4D6-7B01-C40A186E0CA7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
+<<<<<<< HEAD
 		SolutionGuid = {594DA374-FCBC-4311-8FC1-05334C8A4CF6}
+=======
+		SolutionGuid = {0160771B-1ED2-4126-BC8D-E803B2DAAD58}
+>>>>>>> 5f19887089a606ae1df131e39134d711cac6ee33
 	EndGlobalSection
 EndGlobal

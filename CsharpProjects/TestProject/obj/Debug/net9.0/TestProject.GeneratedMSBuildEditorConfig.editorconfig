@@ -8,8 +8,10 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TestProject
+<<<<<<< HEAD
 build_property.ProjectDir = C:\Users\16410\プロジェクト\C-_practice\CsharpProjects\TestProject\
+=======
+build_property.ProjectDir = /Users/daisuke/プロジェクト/C-_practice/CsharpProjects/TestProject/
+>>>>>>> 5f19887089a606ae1df131e39134d711cac6ee33
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
-build_property.EffectiveAnalysisLevelStyle = 9.0
-build_property.EnableCodeStyleSeverity = 

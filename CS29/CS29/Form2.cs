@@ -15,6 +15,8 @@ namespace CS29
         public Form2()
         {
             InitializeComponent();
+
+            Counter.Call();
         }
     }
 }

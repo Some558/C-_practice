@@ -4,6 +4,7 @@ namespace CS29
     {
         // アプリケーションに一つだけ以下を持たせたい場合はstaticにする
         private static int _count = 0;
+        private int _value = 0;
         // 静的メソッド
         internal static void Call()
         {
@@ -17,6 +18,11 @@ namespace CS29
         internal static int GetCount()
         {
             return _count;
+        }
+
+        internal void DDD()
+        {
+            _value++;
         }
     }
 }

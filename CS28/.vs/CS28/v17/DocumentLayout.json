@@ -1,0 +1,52 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\16410\\\u30D7\u30ED\u30B8\u30A7\u30AF\u30C8\\CS28\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A572B821-76E0-44B0-A70E-4A00A11FB3EE}|CS28\\CS28.vbproj|c:\\users\\16410\\\u30D7\u30ED\u30B8\u30A7\u30AF\u30C8\\cs28\\cs28\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A572B821-76E0-44B0-A70E-4A00A11FB3EE}|CS28\\CS28.vbproj|solutionrelative:cs28\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A572B821-76E0-44B0-A70E-4A00A11FB3EE}|CS28\\CS28.vbproj|C:\\Users\\16410\\\u30D7\u30ED\u30B8\u30A7\u30AF\u30C8\\CS28\\cs28\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{A572B821-76E0-44B0-A70E-4A00A11FB3EE}|CS28\\CS28.vbproj|solutionrelative:cs28\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Database.cs",
+              "DocumentMoniker": "C:\\Users\\16410\\\u30D7\u30ED\u30B8\u30A7\u30AF\u30C8\\CS28\\CS28\\Database.cs",
+              "RelativeDocumentMoniker": "CS28\\Database.cs",
+              "ToolTip": "C:\\Users\\16410\\\u30D7\u30ED\u30B8\u30A7\u30AF\u30C8\\CS28\\CS28\\Database.cs",
+              "RelativeToolTip": "CS28\\Database.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T07:50:32.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.vb [\u30C7\u30B6\u30A4\u30F3]",
+              "DocumentMoniker": "C:\\Users\\16410\\\u30D7\u30ED\u30B8\u30A7\u30AF\u30C8\\CS28\\CS28\\Form1.vb",
+              "RelativeDocumentMoniker": "CS28\\Form1.vb",
+              "ToolTip": "C:\\Users\\16410\\\u30D7\u30ED\u30B8\u30A7\u30AF\u30C8\\CS28\\CS28\\Form1.vb [\u30C7\u30B6\u30A4\u30F3]",
+              "RelativeToolTip": "CS28\\Form1.vb [\u30C7\u30B6\u30A4\u30F3]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-03-01T07:35:00.212Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

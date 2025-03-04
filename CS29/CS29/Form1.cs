@@ -17,9 +17,28 @@ namespace CS29
             InitializeComponent();
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            using (var f = new Form2())
+            {
+                f.ShowDialog();
+            }
+        }
+
         private void button2_Click(object sender, EventArgs e)
         {
+            using (var f = new Form3())
+            {
+                f.ShowDialog();
+            }
 
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Counter c = new Counter();
+            c.DDD();
+            this.Text = Counter.GetCount().ToString();
         }
     }
 }

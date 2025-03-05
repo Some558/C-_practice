@@ -5,6 +5,9 @@ namespace CS30
         public Form1()
         {
             InitializeComponent();
+
+            A2 a2 = new A2();
+            a2.GetData();
         }
     }
 }

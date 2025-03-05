@@ -3,11 +3,19 @@
   "WorkspaceRootPath": "C:\\Users\\16410\\\u30D7\u30ED\u30B8\u30A7\u30AF\u30C8\\C-_practice\\CS30\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{31C4C9A5-B273-4FB1-9C60-479F96255551}|CS30\\CS30.csproj|c:\\users\\16410\\\u30D7\u30ED\u30B8\u30A7\u30AF\u30C8\\c-_practice\\cs30\\cs30\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31C4C9A5-B273-4FB1-9C60-479F96255551}|CS30\\CS30.csproj|solutionrelative:cs30\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31C4C9A5-B273-4FB1-9C60-479F96255551}|CS30\\CS30.csproj|c:\\users\\16410\\\u30D7\u30ED\u30B8\u30A7\u30AF\u30C8\\c-_practice\\cs30\\cs30\\a2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31C4C9A5-B273-4FB1-9C60-479F96255551}|CS30\\CS30.csproj|solutionrelative:cs30\\a2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{31C4C9A5-B273-4FB1-9C60-479F96255551}|CS30\\CS30.csproj|c:\\users\\16410\\\u30D7\u30ED\u30B8\u30A7\u30AF\u30C8\\c-_practice\\cs30\\cs30\\a1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{31C4C9A5-B273-4FB1-9C60-479F96255551}|CS30\\CS30.csproj|solutionrelative:cs30\\a1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31C4C9A5-B273-4FB1-9C60-479F96255551}|CS30\\CS30.csproj|c:\\users\\16410\\\u30D7\u30ED\u30B8\u30A7\u30AF\u30C8\\c-_practice\\cs30\\cs30\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{31C4C9A5-B273-4FB1-9C60-479F96255551}|CS30\\CS30.csproj|C:\\Users\\16410\\\u30D7\u30ED\u30B8\u30A7\u30AF\u30C8\\C-_practice\\CS30\\cs30\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{31C4C9A5-B273-4FB1-9C60-479F96255551}|CS30\\CS30.csproj|solutionrelative:cs30\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -31,19 +39,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\16410\\\u30D7\u30ED\u30B8\u30A7\u30AF\u30C8\\C-_practice\\CS30\\CS30\\Form1.cs",
+              "RelativeDocumentMoniker": "CS30\\Form1.cs",
+              "ToolTip": "C:\\Users\\16410\\\u30D7\u30ED\u30B8\u30A7\u30AF\u30C8\\C-_practice\\CS30\\CS30\\Form1.cs",
+              "RelativeToolTip": "CS30\\Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T21:32:28.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "A2.cs",
+              "DocumentMoniker": "C:\\Users\\16410\\\u30D7\u30ED\u30B8\u30A7\u30AF\u30C8\\C-_practice\\CS30\\CS30\\A2.cs",
+              "RelativeDocumentMoniker": "CS30\\A2.cs",
+              "ToolTip": "C:\\Users\\16410\\\u30D7\u30ED\u30B8\u30A7\u30AF\u30C8\\C-_practice\\CS30\\CS30\\A2.cs",
+              "RelativeToolTip": "CS30\\A2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T21:29:46.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "A1.cs",
               "DocumentMoniker": "C:\\Users\\16410\\\u30D7\u30ED\u30B8\u30A7\u30AF\u30C8\\C-_practice\\CS30\\CS30\\A1.cs",
               "RelativeDocumentMoniker": "CS30\\A1.cs",
               "ToolTip": "C:\\Users\\16410\\\u30D7\u30ED\u30B8\u30A7\u30AF\u30C8\\C-_practice\\CS30\\CS30\\A1.cs",
               "RelativeToolTip": "CS30\\A1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-04T22:36:45.53Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Form1.cs [\u30C7\u30B6\u30A4\u30F3]",
               "DocumentMoniker": "C:\\Users\\16410\\\u30D7\u30ED\u30B8\u30A7\u30AF\u30C8\\C-_practice\\CS30\\CS30\\Form1.cs",
               "RelativeDocumentMoniker": "CS30\\Form1.cs",

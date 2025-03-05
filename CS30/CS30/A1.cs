@@ -11,5 +11,16 @@ namespace CS30
         private int _privateValue;
         protected int ProtectedValue;
 
+        public A1(int value)
+        {
+            _privateValue = value;
+        }
+
+        public int GetData()
+        {
+            return 100;
+
+        }
+
     }
 }

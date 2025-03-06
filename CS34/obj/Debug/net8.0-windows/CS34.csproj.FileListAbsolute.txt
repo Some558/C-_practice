@@ -1,0 +1,17 @@
+C:\Users\16410\プロジェクト\C-_practice\CS34\obj\Debug\net8.0-windows\CS34.Form1.resources
+C:\Users\16410\プロジェクト\C-_practice\CS34\obj\Debug\net8.0-windows\CS34.csproj.GenerateResource.cache
+C:\Users\16410\プロジェクト\C-_practice\CS34\obj\Debug\net8.0-windows\CS34.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\16410\プロジェクト\C-_practice\CS34\obj\Debug\net8.0-windows\CS34.AssemblyInfoInputs.cache
+C:\Users\16410\プロジェクト\C-_practice\CS34\obj\Debug\net8.0-windows\CS34.AssemblyInfo.cs
+C:\Users\16410\プロジェクト\C-_practice\CS34\obj\Debug\net8.0-windows\CS34.csproj.CoreCompileInputs.cache
+C:\Users\16410\プロジェクト\C-_practice\CS34\obj\Debug\net8.0-windows\CS34.sourcelink.json
+C:\Users\16410\プロジェクト\C-_practice\CS34\bin\Debug\net8.0-windows\CS34.exe
+C:\Users\16410\プロジェクト\C-_practice\CS34\bin\Debug\net8.0-windows\CS34.deps.json
+C:\Users\16410\プロジェクト\C-_practice\CS34\bin\Debug\net8.0-windows\CS34.runtimeconfig.json
+C:\Users\16410\プロジェクト\C-_practice\CS34\bin\Debug\net8.0-windows\CS34.dll
+C:\Users\16410\プロジェクト\C-_practice\CS34\bin\Debug\net8.0-windows\CS34.pdb
+C:\Users\16410\プロジェクト\C-_practice\CS34\obj\Debug\net8.0-windows\CS34.dll
+C:\Users\16410\プロジェクト\C-_practice\CS34\obj\Debug\net8.0-windows\refint\CS34.dll
+C:\Users\16410\プロジェクト\C-_practice\CS34\obj\Debug\net8.0-windows\CS34.pdb
+C:\Users\16410\プロジェクト\C-_practice\CS34\obj\Debug\net8.0-windows\CS34.genruntimeconfig.cache
+C:\Users\16410\プロジェクト\C-_practice\CS34\obj\Debug\net8.0-windows\ref\CS34.dll

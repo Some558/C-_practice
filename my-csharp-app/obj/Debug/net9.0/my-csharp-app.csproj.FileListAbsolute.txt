@@ -1,0 +1,15 @@
+C:\Users\16410\プロジェクト\C-_practice\my-csharp-app\bin\Debug\net9.0\my-csharp-app.exe
+C:\Users\16410\プロジェクト\C-_practice\my-csharp-app\bin\Debug\net9.0\my-csharp-app.deps.json
+C:\Users\16410\プロジェクト\C-_practice\my-csharp-app\bin\Debug\net9.0\my-csharp-app.runtimeconfig.json
+C:\Users\16410\プロジェクト\C-_practice\my-csharp-app\bin\Debug\net9.0\my-csharp-app.dll
+C:\Users\16410\プロジェクト\C-_practice\my-csharp-app\bin\Debug\net9.0\my-csharp-app.pdb
+C:\Users\16410\プロジェクト\C-_practice\my-csharp-app\obj\Debug\net9.0\my-csharp-app.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\16410\プロジェクト\C-_practice\my-csharp-app\obj\Debug\net9.0\my-csharp-app.AssemblyInfoInputs.cache
+C:\Users\16410\プロジェクト\C-_practice\my-csharp-app\obj\Debug\net9.0\my-csharp-app.AssemblyInfo.cs
+C:\Users\16410\プロジェクト\C-_practice\my-csharp-app\obj\Debug\net9.0\my-csharp-app.csproj.CoreCompileInputs.cache
+C:\Users\16410\プロジェクト\C-_practice\my-csharp-app\obj\Debug\net9.0\my-csharp-app.sourcelink.json
+C:\Users\16410\プロジェクト\C-_practice\my-csharp-app\obj\Debug\net9.0\my-csharp-app.dll
+C:\Users\16410\プロジェクト\C-_practice\my-csharp-app\obj\Debug\net9.0\refint\my-csharp-app.dll
+C:\Users\16410\プロジェクト\C-_practice\my-csharp-app\obj\Debug\net9.0\my-csharp-app.pdb
+C:\Users\16410\プロジェクト\C-_practice\my-csharp-app\obj\Debug\net9.0\my-csharp-app.genruntimeconfig.cache
+C:\Users\16410\プロジェクト\C-_practice\my-csharp-app\obj\Debug\net9.0\ref\my-csharp-app.dll

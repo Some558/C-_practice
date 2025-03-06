@@ -1,0 +1,17 @@
+C:\Users\16410\プロジェクト\C-_practice\CounterApp\obj\Debug\net8.0-windows\CounterApp.Form1.resources
+C:\Users\16410\プロジェクト\C-_practice\CounterApp\obj\Debug\net8.0-windows\CounterApp.csproj.GenerateResource.cache
+C:\Users\16410\プロジェクト\C-_practice\CounterApp\obj\Debug\net8.0-windows\CounterApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\16410\プロジェクト\C-_practice\CounterApp\obj\Debug\net8.0-windows\CounterApp.AssemblyInfoInputs.cache
+C:\Users\16410\プロジェクト\C-_practice\CounterApp\obj\Debug\net8.0-windows\CounterApp.AssemblyInfo.cs
+C:\Users\16410\プロジェクト\C-_practice\CounterApp\obj\Debug\net8.0-windows\CounterApp.csproj.CoreCompileInputs.cache
+C:\Users\16410\プロジェクト\C-_practice\CounterApp\obj\Debug\net8.0-windows\CounterApp.sourcelink.json
+C:\Users\16410\プロジェクト\C-_practice\CounterApp\bin\Debug\net8.0-windows\CounterApp.exe
+C:\Users\16410\プロジェクト\C-_practice\CounterApp\bin\Debug\net8.0-windows\CounterApp.deps.json
+C:\Users\16410\プロジェクト\C-_practice\CounterApp\bin\Debug\net8.0-windows\CounterApp.runtimeconfig.json
+C:\Users\16410\プロジェクト\C-_practice\CounterApp\bin\Debug\net8.0-windows\CounterApp.dll
+C:\Users\16410\プロジェクト\C-_practice\CounterApp\bin\Debug\net8.0-windows\CounterApp.pdb
+C:\Users\16410\プロジェクト\C-_practice\CounterApp\obj\Debug\net8.0-windows\CounterApp.dll
+C:\Users\16410\プロジェクト\C-_practice\CounterApp\obj\Debug\net8.0-windows\refint\CounterApp.dll
+C:\Users\16410\プロジェクト\C-_practice\CounterApp\obj\Debug\net8.0-windows\CounterApp.pdb
+C:\Users\16410\プロジェクト\C-_practice\CounterApp\obj\Debug\net8.0-windows\CounterApp.genruntimeconfig.cache
+C:\Users\16410\プロジェクト\C-_practice\CounterApp\obj\Debug\net8.0-windows\ref\CounterApp.dll

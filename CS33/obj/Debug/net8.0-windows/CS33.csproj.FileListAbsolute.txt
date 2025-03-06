@@ -1,0 +1,7 @@
+C:\Users\16410\プロジェクト\C-_practice\CS33\obj\Debug\net8.0-windows\CS33.Form1.resources
+C:\Users\16410\プロジェクト\C-_practice\CS33\obj\Debug\net8.0-windows\CS33.csproj.GenerateResource.cache
+C:\Users\16410\プロジェクト\C-_practice\CS33\obj\Debug\net8.0-windows\CS33.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\16410\プロジェクト\C-_practice\CS33\obj\Debug\net8.0-windows\CS33.AssemblyInfoInputs.cache
+C:\Users\16410\プロジェクト\C-_practice\CS33\obj\Debug\net8.0-windows\CS33.AssemblyInfo.cs
+C:\Users\16410\プロジェクト\C-_practice\CS33\obj\Debug\net8.0-windows\CS33.csproj.CoreCompileInputs.cache
+C:\Users\16410\プロジェクト\C-_practice\CS33\obj\Debug\net8.0-windows\CS33.sourcelink.json

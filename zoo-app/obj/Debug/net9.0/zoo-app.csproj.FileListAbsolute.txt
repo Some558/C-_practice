@@ -1,0 +1,15 @@
+C:\Users\16410\プロジェクト\C-_practice\zoo-app\obj\Debug\net9.0\zoo-app.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\16410\プロジェクト\C-_practice\zoo-app\obj\Debug\net9.0\zoo-app.AssemblyInfoInputs.cache
+C:\Users\16410\プロジェクト\C-_practice\zoo-app\obj\Debug\net9.0\zoo-app.AssemblyInfo.cs
+C:\Users\16410\プロジェクト\C-_practice\zoo-app\obj\Debug\net9.0\zoo-app.csproj.CoreCompileInputs.cache
+C:\Users\16410\プロジェクト\C-_practice\zoo-app\obj\Debug\net9.0\zoo-app.sourcelink.json
+C:\Users\16410\プロジェクト\C-_practice\zoo-app\bin\Debug\net9.0\zoo-app.exe
+C:\Users\16410\プロジェクト\C-_practice\zoo-app\bin\Debug\net9.0\zoo-app.deps.json
+C:\Users\16410\プロジェクト\C-_practice\zoo-app\bin\Debug\net9.0\zoo-app.runtimeconfig.json
+C:\Users\16410\プロジェクト\C-_practice\zoo-app\bin\Debug\net9.0\zoo-app.dll
+C:\Users\16410\プロジェクト\C-_practice\zoo-app\bin\Debug\net9.0\zoo-app.pdb
+C:\Users\16410\プロジェクト\C-_practice\zoo-app\obj\Debug\net9.0\zoo-app.dll
+C:\Users\16410\プロジェクト\C-_practice\zoo-app\obj\Debug\net9.0\refint\zoo-app.dll
+C:\Users\16410\プロジェクト\C-_practice\zoo-app\obj\Debug\net9.0\zoo-app.pdb
+C:\Users\16410\プロジェクト\C-_practice\zoo-app\obj\Debug\net9.0\zoo-app.genruntimeconfig.cache
+C:\Users\16410\プロジェクト\C-_practice\zoo-app\obj\Debug\net9.0\ref\zoo-app.dll

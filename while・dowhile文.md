@@ -37,5 +37,8 @@ do{
 }while(i < 10);
 
 MessageBox.Show(i.ToString());
-⇩
+
 101
+
+## 備考
+while(true)は常にtrueなので無限ループとなる

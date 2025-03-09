@@ -1,0 +1,15 @@
+C:\Users\16410\プロジェクト\C-_practice\IAppliance\obj\Debug\net9.0\IAppliance.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\16410\プロジェクト\C-_practice\IAppliance\obj\Debug\net9.0\IAppliance.AssemblyInfoInputs.cache
+C:\Users\16410\プロジェクト\C-_practice\IAppliance\obj\Debug\net9.0\IAppliance.AssemblyInfo.cs
+C:\Users\16410\プロジェクト\C-_practice\IAppliance\obj\Debug\net9.0\IAppliance.csproj.CoreCompileInputs.cache
+C:\Users\16410\プロジェクト\C-_practice\IAppliance\obj\Debug\net9.0\IAppliance.sourcelink.json
+C:\Users\16410\プロジェクト\C-_practice\IAppliance\bin\Debug\net9.0\IAppliance.exe
+C:\Users\16410\プロジェクト\C-_practice\IAppliance\bin\Debug\net9.0\IAppliance.deps.json
+C:\Users\16410\プロジェクト\C-_practice\IAppliance\bin\Debug\net9.0\IAppliance.runtimeconfig.json
+C:\Users\16410\プロジェクト\C-_practice\IAppliance\bin\Debug\net9.0\IAppliance.dll
+C:\Users\16410\プロジェクト\C-_practice\IAppliance\bin\Debug\net9.0\IAppliance.pdb
+C:\Users\16410\プロジェクト\C-_practice\IAppliance\obj\Debug\net9.0\IAppliance.dll
+C:\Users\16410\プロジェクト\C-_practice\IAppliance\obj\Debug\net9.0\refint\IAppliance.dll
+C:\Users\16410\プロジェクト\C-_practice\IAppliance\obj\Debug\net9.0\IAppliance.pdb
+C:\Users\16410\プロジェクト\C-_practice\IAppliance\obj\Debug\net9.0\IAppliance.genruntimeconfig.cache
+C:\Users\16410\プロジェクト\C-_practice\IAppliance\obj\Debug\net9.0\ref\IAppliance.dll

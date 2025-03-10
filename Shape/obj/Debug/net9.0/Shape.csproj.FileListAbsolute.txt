@@ -1,0 +1,15 @@
+C:\Users\16410\プロジェクト\C-_practice\Shape\obj\Debug\net9.0\Shape.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\16410\プロジェクト\C-_practice\Shape\obj\Debug\net9.0\Shape.AssemblyInfoInputs.cache
+C:\Users\16410\プロジェクト\C-_practice\Shape\obj\Debug\net9.0\Shape.AssemblyInfo.cs
+C:\Users\16410\プロジェクト\C-_practice\Shape\obj\Debug\net9.0\Shape.csproj.CoreCompileInputs.cache
+C:\Users\16410\プロジェクト\C-_practice\Shape\obj\Debug\net9.0\Shape.sourcelink.json
+C:\Users\16410\プロジェクト\C-_practice\Shape\bin\Debug\net9.0\Shape.exe
+C:\Users\16410\プロジェクト\C-_practice\Shape\bin\Debug\net9.0\Shape.deps.json
+C:\Users\16410\プロジェクト\C-_practice\Shape\bin\Debug\net9.0\Shape.runtimeconfig.json
+C:\Users\16410\プロジェクト\C-_practice\Shape\bin\Debug\net9.0\Shape.dll
+C:\Users\16410\プロジェクト\C-_practice\Shape\bin\Debug\net9.0\Shape.pdb
+C:\Users\16410\プロジェクト\C-_practice\Shape\obj\Debug\net9.0\Shape.dll
+C:\Users\16410\プロジェクト\C-_practice\Shape\obj\Debug\net9.0\refint\Shape.dll
+C:\Users\16410\プロジェクト\C-_practice\Shape\obj\Debug\net9.0\Shape.pdb
+C:\Users\16410\プロジェクト\C-_practice\Shape\obj\Debug\net9.0\Shape.genruntimeconfig.cache
+C:\Users\16410\プロジェクト\C-_practice\Shape\obj\Debug\net9.0\ref\Shape.dll

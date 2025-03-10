@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "sR6WwPsk6lA=",
+  "dgSpecHash": "K87AjCd5fmU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\16410\\プロジェクト\\C-_practice\\CounterApp\\CounterApp.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\16410\\OneDrive\\ドキュメント\\Program\\C-_practice\\CounterApp\\CounterApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\16410\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.13\\microsoft.netcore.app.ref.8.0.13.nupkg.sha512",
+    "C:\\Users\\16410\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.13\\microsoft.windowsdesktop.app.ref.8.0.13.nupkg.sha512",
+    "C:\\Users\\16410\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.13\\microsoft.aspnetcore.app.ref.8.0.13.nupkg.sha512",
+    "C:\\Users\\16410\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.13\\microsoft.netcore.app.host.win-x64.8.0.13.nupkg.sha512"
+  ],
   "logs": []
 }

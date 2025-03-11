@@ -1,0 +1,15 @@
+C:\Users\16410\プロジェクト\C-_practice\Array\obj\Debug\net9.0\Array.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\16410\プロジェクト\C-_practice\Array\obj\Debug\net9.0\Array.AssemblyInfoInputs.cache
+C:\Users\16410\プロジェクト\C-_practice\Array\obj\Debug\net9.0\Array.AssemblyInfo.cs
+C:\Users\16410\プロジェクト\C-_practice\Array\obj\Debug\net9.0\Array.csproj.CoreCompileInputs.cache
+C:\Users\16410\プロジェクト\C-_practice\Array\obj\Debug\net9.0\Array.sourcelink.json
+C:\Users\16410\プロジェクト\C-_practice\Array\bin\Debug\net9.0\Array.exe
+C:\Users\16410\プロジェクト\C-_practice\Array\bin\Debug\net9.0\Array.deps.json
+C:\Users\16410\プロジェクト\C-_practice\Array\bin\Debug\net9.0\Array.runtimeconfig.json
+C:\Users\16410\プロジェクト\C-_practice\Array\bin\Debug\net9.0\Array.dll
+C:\Users\16410\プロジェクト\C-_practice\Array\bin\Debug\net9.0\Array.pdb
+C:\Users\16410\プロジェクト\C-_practice\Array\obj\Debug\net9.0\Array.dll
+C:\Users\16410\プロジェクト\C-_practice\Array\obj\Debug\net9.0\refint\Array.dll
+C:\Users\16410\プロジェクト\C-_practice\Array\obj\Debug\net9.0\Array.pdb
+C:\Users\16410\プロジェクト\C-_practice\Array\obj\Debug\net9.0\Array.genruntimeconfig.cache
+C:\Users\16410\プロジェクト\C-_practice\Array\obj\Debug\net9.0\ref\Array.dll

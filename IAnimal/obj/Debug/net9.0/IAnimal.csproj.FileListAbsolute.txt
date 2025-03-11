@@ -3,3 +3,13 @@ C:\Users\16410\プロジェクト\C-_practice\IAnimal\obj\Debug\net9.0\IAnimal.A
 C:\Users\16410\プロジェクト\C-_practice\IAnimal\obj\Debug\net9.0\IAnimal.AssemblyInfo.cs
 C:\Users\16410\プロジェクト\C-_practice\IAnimal\obj\Debug\net9.0\IAnimal.csproj.CoreCompileInputs.cache
 C:\Users\16410\プロジェクト\C-_practice\IAnimal\obj\Debug\net9.0\IAnimal.sourcelink.json
+C:\Users\16410\プロジェクト\C-_practice\IAnimal\bin\Debug\net9.0\IAnimal.exe
+C:\Users\16410\プロジェクト\C-_practice\IAnimal\bin\Debug\net9.0\IAnimal.deps.json
+C:\Users\16410\プロジェクト\C-_practice\IAnimal\bin\Debug\net9.0\IAnimal.runtimeconfig.json
+C:\Users\16410\プロジェクト\C-_practice\IAnimal\bin\Debug\net9.0\IAnimal.dll
+C:\Users\16410\プロジェクト\C-_practice\IAnimal\bin\Debug\net9.0\IAnimal.pdb
+C:\Users\16410\プロジェクト\C-_practice\IAnimal\obj\Debug\net9.0\IAnimal.dll
+C:\Users\16410\プロジェクト\C-_practice\IAnimal\obj\Debug\net9.0\refint\IAnimal.dll
+C:\Users\16410\プロジェクト\C-_practice\IAnimal\obj\Debug\net9.0\IAnimal.pdb
+C:\Users\16410\プロジェクト\C-_practice\IAnimal\obj\Debug\net9.0\IAnimal.genruntimeconfig.cache
+C:\Users\16410\プロジェクト\C-_practice\IAnimal\obj\Debug\net9.0\ref\IAnimal.dll

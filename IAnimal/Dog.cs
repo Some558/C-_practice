@@ -4,7 +4,7 @@ namespace zoo
 {
     public class Dog : Animal
     {
-        public Dog() : base(name){}
+        public Dog(string name) : base(name){}
         public override void MakeSound()
         {
             Console.WriteLine("ワンワン");

@@ -1,0 +1,15 @@
+C:\Users\16410\プロジェクト\C-_practice\Shape2\obj\Debug\net9.0\Shape2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\16410\プロジェクト\C-_practice\Shape2\obj\Debug\net9.0\Shape2.AssemblyInfoInputs.cache
+C:\Users\16410\プロジェクト\C-_practice\Shape2\obj\Debug\net9.0\Shape2.AssemblyInfo.cs
+C:\Users\16410\プロジェクト\C-_practice\Shape2\obj\Debug\net9.0\Shape2.csproj.CoreCompileInputs.cache
+C:\Users\16410\プロジェクト\C-_practice\Shape2\obj\Debug\net9.0\Shape2.sourcelink.json
+C:\Users\16410\プロジェクト\C-_practice\Shape2\bin\Debug\net9.0\Shape2.exe
+C:\Users\16410\プロジェクト\C-_practice\Shape2\bin\Debug\net9.0\Shape2.deps.json
+C:\Users\16410\プロジェクト\C-_practice\Shape2\bin\Debug\net9.0\Shape2.runtimeconfig.json
+C:\Users\16410\プロジェクト\C-_practice\Shape2\bin\Debug\net9.0\Shape2.dll
+C:\Users\16410\プロジェクト\C-_practice\Shape2\bin\Debug\net9.0\Shape2.pdb
+C:\Users\16410\プロジェクト\C-_practice\Shape2\obj\Debug\net9.0\Shape2.dll
+C:\Users\16410\プロジェクト\C-_practice\Shape2\obj\Debug\net9.0\refint\Shape2.dll
+C:\Users\16410\プロジェクト\C-_practice\Shape2\obj\Debug\net9.0\Shape2.pdb
+C:\Users\16410\プロジェクト\C-_practice\Shape2\obj\Debug\net9.0\Shape2.genruntimeconfig.cache
+C:\Users\16410\プロジェクト\C-_practice\Shape2\obj\Debug\net9.0\ref\Shape2.dll

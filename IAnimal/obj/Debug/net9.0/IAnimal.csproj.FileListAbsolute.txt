@@ -1,0 +1,5 @@
+C:\Users\16410\プロジェクト\C-_practice\IAnimal\obj\Debug\net9.0\IAnimal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\16410\プロジェクト\C-_practice\IAnimal\obj\Debug\net9.0\IAnimal.AssemblyInfoInputs.cache
+C:\Users\16410\プロジェクト\C-_practice\IAnimal\obj\Debug\net9.0\IAnimal.AssemblyInfo.cs
+C:\Users\16410\プロジェクト\C-_practice\IAnimal\obj\Debug\net9.0\IAnimal.csproj.CoreCompileInputs.cache
+C:\Users\16410\プロジェクト\C-_practice\IAnimal\obj\Debug\net9.0\IAnimal.sourcelink.json

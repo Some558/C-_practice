@@ -12,7 +12,10 @@ namespace Product1
             get{return _number;}
             set
             {
-                throw new ArgumentException("");
+                if(0 > value)
+                {
+                throw new ArgumentException("NG");  
+                }
                 _number = value;
             }
             
@@ -23,7 +26,10 @@ namespace Product1
             get{return _price;}
             set
             {
-                throw new ArgumentException("");  
+                if(0 > value)
+                {
+                throw new ArgumentException("NG");  
+                }
                 _price = value;
             }              
         }        

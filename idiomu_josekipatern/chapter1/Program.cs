@@ -13,8 +13,9 @@ namespace Product1
             };
 
             double _taxRate = 0.1;
+            double totalPrice = dorayaki.Price * _taxRate;
 
-            Console.WriteLine($"どらやきの消費税額は、{dorayaki.Price * _taxRate}");
+            Console.WriteLine($"どらやきの消費税額は、{totalPrice}です。");
         }
     }
 }

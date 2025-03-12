@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("feetmetor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f45e54217c9546a7ffde620a0244e4ac0a1b1491")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4fb0228ffc79da61bed0c0a602970c6daf380bae")]
 [assembly: System.Reflection.AssemblyProductAttribute("feetmetor")]
 [assembly: System.Reflection.AssemblyTitleAttribute("feetmetor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

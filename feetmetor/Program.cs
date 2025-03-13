@@ -1,5 +1,6 @@
 ﻿using System;
 
+// args.Lengthはコマンドライン引数の数　
 if(args.Length >= 1 && args[0] == "-tom")
 {
 

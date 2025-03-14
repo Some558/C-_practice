@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("uriage")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c18df2e275aebc73884a772137bb6b98f6b67459")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b0cd9c05b5eb3c829cd9686d1bf65b148b663c69")]
 [assembly: System.Reflection.AssemblyProductAttribute("uriage")]
 [assembly: System.Reflection.AssemblyTitleAttribute("uriage")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

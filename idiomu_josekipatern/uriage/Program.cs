@@ -1,8 +1,9 @@
 ﻿using SalesCalculator;
 
-SalesCounter sales = new SalesCounter("sales.csv");
-Dictionary<string, int> amountsPerStore = sales.GetPerStoreSales();
-foreach(KeyValuePair<string,int> obj in amountsPerStore)
+var sales = new SalesCounter("sales.csv");
+// 右辺のメソッドの戻り値から型を推測
+var amountsPerStore = sales.GetPerStoreSales();
+foreach(var obj in amountsPerStore)
 {
     Console.WriteLine($"{obj.Key}{obj.Value}");
 }

@@ -9,7 +9,7 @@ public class SalesCounter{
 
     public IDictionary<string, int> GetPerStoreSales()
     {
-        Dictionary<string, int> dict = new Dictionary<string, int>();
+        var dict = new Dictionary<string, int>();
         // _salesにはSale型のオブジェクトが入っている
         foreach(Sale sale in _sales)
         {
@@ -27,12 +27,12 @@ public class SalesCounter{
 
     private static IEnumerable<Sale> ReadSales(string filePath)
     {
-    List<Sale> sales = new List<Sale>();
-    string[]lines = File.ReadAllLines(filePath);
+    var sales = new List<Sale>();
+    string[] lines = File.ReadAllLines(filePath);
     foreach(string line in lines)
     {
-        string[]items = line.Split(',');
-        Sale sale = new Sale
+        string[] items = line.Split(',');
+        var sale = new Sale
         {
             ShopName = items[0],
             ProductCategory = items[1],

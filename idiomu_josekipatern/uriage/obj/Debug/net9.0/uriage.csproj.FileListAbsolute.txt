@@ -1,0 +1,15 @@
+C:\Users\16410\プロジェクト\C-_practice\idiomu_josekipatern\uriage\bin\Debug\net9.0\uriage.exe
+C:\Users\16410\プロジェクト\C-_practice\idiomu_josekipatern\uriage\bin\Debug\net9.0\uriage.deps.json
+C:\Users\16410\プロジェクト\C-_practice\idiomu_josekipatern\uriage\bin\Debug\net9.0\uriage.runtimeconfig.json
+C:\Users\16410\プロジェクト\C-_practice\idiomu_josekipatern\uriage\bin\Debug\net9.0\uriage.dll
+C:\Users\16410\プロジェクト\C-_practice\idiomu_josekipatern\uriage\bin\Debug\net9.0\uriage.pdb
+C:\Users\16410\プロジェクト\C-_practice\idiomu_josekipatern\uriage\obj\Debug\net9.0\uriage.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\16410\プロジェクト\C-_practice\idiomu_josekipatern\uriage\obj\Debug\net9.0\uriage.AssemblyInfoInputs.cache
+C:\Users\16410\プロジェクト\C-_practice\idiomu_josekipatern\uriage\obj\Debug\net9.0\uriage.AssemblyInfo.cs
+C:\Users\16410\プロジェクト\C-_practice\idiomu_josekipatern\uriage\obj\Debug\net9.0\uriage.csproj.CoreCompileInputs.cache
+C:\Users\16410\プロジェクト\C-_practice\idiomu_josekipatern\uriage\obj\Debug\net9.0\uriage.sourcelink.json
+C:\Users\16410\プロジェクト\C-_practice\idiomu_josekipatern\uriage\obj\Debug\net9.0\uriage.dll
+C:\Users\16410\プロジェクト\C-_practice\idiomu_josekipatern\uriage\obj\Debug\net9.0\refint\uriage.dll
+C:\Users\16410\プロジェクト\C-_practice\idiomu_josekipatern\uriage\obj\Debug\net9.0\uriage.pdb
+C:\Users\16410\プロジェクト\C-_practice\idiomu_josekipatern\uriage\obj\Debug\net9.0\uriage.genruntimeconfig.cache
+C:\Users\16410\プロジェクト\C-_practice\idiomu_josekipatern\uriage\obj\Debug\net9.0\ref\uriage.dll

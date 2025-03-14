@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("feetmetor")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("uriage")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c18df2e275aebc73884a772137bb6b98f6b67459")]
-[assembly: System.Reflection.AssemblyProductAttribute("feetmetor")]
-[assembly: System.Reflection.AssemblyTitleAttribute("feetmetor")]
+[assembly: System.Reflection.AssemblyProductAttribute("uriage")]
+[assembly: System.Reflection.AssemblyTitleAttribute("uriage")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // MSBuild WriteCodeFragment クラスによって生成されました。

@@ -1,7 +1,5 @@
-﻿using System;
+﻿using DistanceConverter;
 
-namespace DistanceConverter
-{
     // args.Lengthはコマンドライン引数の数　
     if(args.Length >= 1 && args[0] == "-tom")
     {
@@ -28,4 +26,3 @@ namespace DistanceConverter
             Console.WriteLine($"{meter}meterは{feet}fです。");
         }
     }    
-}

@@ -1,21 +1,4 @@
-## ラムダ式とは
-特定の値の中から、条件に合ったものを探すときに使う記法
-
-// Countメソッドの引数に特定の条件に合った引数を代入できる
-var count = Count(numbers,n => n % 2 == 0);
-
-### 例文集
-// 奇数の数をカウントする
-var count = Count(numbers,n => n % 2 == 1);
-// 5以上の数をカウントする  
-var count = Count(numbers,n => n>= 1);
-// 5以上、10未満の数をカウントする  
-var count = Count(numbers,n => 5 <= n && n < 10);
-// 数字の5が含まれている数をカウントする
-var count = Count(numbers,n => n.ToString().Contains('5'));
-
-## List<T>とラムダ式の組み合わせ
-// List<T>型
+﻿// List<T>型
 var cities = new List<string>{
     "Tokyo", "New Delhi", "Bengkok", "London", "Paris", "Berlin",
     "Canberra", "Hong Kong",

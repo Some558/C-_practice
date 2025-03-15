@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "list_ramuda/1.0.0": {
+        "runtime": {
+          "list_ramuda.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "list_ramuda/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

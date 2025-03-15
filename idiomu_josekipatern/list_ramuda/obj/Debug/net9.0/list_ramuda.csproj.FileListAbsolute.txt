@@ -1,0 +1,15 @@
+C:\Users\16410\プロジェクト\C-_practice\idiomu_josekipatern\list_ramuda\bin\Debug\net9.0\list_ramuda.exe
+C:\Users\16410\プロジェクト\C-_practice\idiomu_josekipatern\list_ramuda\bin\Debug\net9.0\list_ramuda.deps.json
+C:\Users\16410\プロジェクト\C-_practice\idiomu_josekipatern\list_ramuda\bin\Debug\net9.0\list_ramuda.runtimeconfig.json
+C:\Users\16410\プロジェクト\C-_practice\idiomu_josekipatern\list_ramuda\bin\Debug\net9.0\list_ramuda.dll
+C:\Users\16410\プロジェクト\C-_practice\idiomu_josekipatern\list_ramuda\bin\Debug\net9.0\list_ramuda.pdb
+C:\Users\16410\プロジェクト\C-_practice\idiomu_josekipatern\list_ramuda\obj\Debug\net9.0\list_ramuda.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\16410\プロジェクト\C-_practice\idiomu_josekipatern\list_ramuda\obj\Debug\net9.0\list_ramuda.AssemblyInfoInputs.cache
+C:\Users\16410\プロジェクト\C-_practice\idiomu_josekipatern\list_ramuda\obj\Debug\net9.0\list_ramuda.AssemblyInfo.cs
+C:\Users\16410\プロジェクト\C-_practice\idiomu_josekipatern\list_ramuda\obj\Debug\net9.0\list_ramuda.csproj.CoreCompileInputs.cache
+C:\Users\16410\プロジェクト\C-_practice\idiomu_josekipatern\list_ramuda\obj\Debug\net9.0\list_ramuda.sourcelink.json
+C:\Users\16410\プロジェクト\C-_practice\idiomu_josekipatern\list_ramuda\obj\Debug\net9.0\list_ramuda.dll
+C:\Users\16410\プロジェクト\C-_practice\idiomu_josekipatern\list_ramuda\obj\Debug\net9.0\refint\list_ramuda.dll
+C:\Users\16410\プロジェクト\C-_practice\idiomu_josekipatern\list_ramuda\obj\Debug\net9.0\list_ramuda.pdb
+C:\Users\16410\プロジェクト\C-_practice\idiomu_josekipatern\list_ramuda\obj\Debug\net9.0\list_ramuda.genruntimeconfig.cache
+C:\Users\16410\プロジェクト\C-_practice\idiomu_josekipatern\list_ramuda\obj\Debug\net9.0\ref\list_ramuda.dll

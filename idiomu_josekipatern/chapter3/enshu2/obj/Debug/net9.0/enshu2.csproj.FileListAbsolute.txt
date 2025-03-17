@@ -1,0 +1,15 @@
+C:\Users\16410\プロジェクト\C-_practice\idiomu_josekipatern\chapter3\enshu2\bin\Debug\net9.0\enshu2.exe
+C:\Users\16410\プロジェクト\C-_practice\idiomu_josekipatern\chapter3\enshu2\bin\Debug\net9.0\enshu2.deps.json
+C:\Users\16410\プロジェクト\C-_practice\idiomu_josekipatern\chapter3\enshu2\bin\Debug\net9.0\enshu2.runtimeconfig.json
+C:\Users\16410\プロジェクト\C-_practice\idiomu_josekipatern\chapter3\enshu2\bin\Debug\net9.0\enshu2.dll
+C:\Users\16410\プロジェクト\C-_practice\idiomu_josekipatern\chapter3\enshu2\bin\Debug\net9.0\enshu2.pdb
+C:\Users\16410\プロジェクト\C-_practice\idiomu_josekipatern\chapter3\enshu2\obj\Debug\net9.0\enshu2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\16410\プロジェクト\C-_practice\idiomu_josekipatern\chapter3\enshu2\obj\Debug\net9.0\enshu2.AssemblyInfoInputs.cache
+C:\Users\16410\プロジェクト\C-_practice\idiomu_josekipatern\chapter3\enshu2\obj\Debug\net9.0\enshu2.AssemblyInfo.cs
+C:\Users\16410\プロジェクト\C-_practice\idiomu_josekipatern\chapter3\enshu2\obj\Debug\net9.0\enshu2.csproj.CoreCompileInputs.cache
+C:\Users\16410\プロジェクト\C-_practice\idiomu_josekipatern\chapter3\enshu2\obj\Debug\net9.0\enshu2.sourcelink.json
+C:\Users\16410\プロジェクト\C-_practice\idiomu_josekipatern\chapter3\enshu2\obj\Debug\net9.0\enshu2.dll
+C:\Users\16410\プロジェクト\C-_practice\idiomu_josekipatern\chapter3\enshu2\obj\Debug\net9.0\refint\enshu2.dll
+C:\Users\16410\プロジェクト\C-_practice\idiomu_josekipatern\chapter3\enshu2\obj\Debug\net9.0\enshu2.pdb
+C:\Users\16410\プロジェクト\C-_practice\idiomu_josekipatern\chapter3\enshu2\obj\Debug\net9.0\enshu2.genruntimeconfig.cache
+C:\Users\16410\プロジェクト\C-_practice\idiomu_josekipatern\chapter3\enshu2\obj\Debug\net9.0\ref\enshu2.dll

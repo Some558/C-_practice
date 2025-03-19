@@ -14,4 +14,3 @@ do
     Console.WriteLine(index);
 } while (true);
 
-// 明日はこの答えがなぜ-1を示すのか調べるところから

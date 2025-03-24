@@ -1,0 +1,15 @@
+C:\Users\16410\プロジェクト\C-_practice\idiomu_josekipatern\chapter5\enshu1\obj\Debug\net9.0\enshu1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\16410\プロジェクト\C-_practice\idiomu_josekipatern\chapter5\enshu1\obj\Debug\net9.0\enshu1.AssemblyInfoInputs.cache
+C:\Users\16410\プロジェクト\C-_practice\idiomu_josekipatern\chapter5\enshu1\obj\Debug\net9.0\enshu1.AssemblyInfo.cs
+C:\Users\16410\プロジェクト\C-_practice\idiomu_josekipatern\chapter5\enshu1\obj\Debug\net9.0\enshu1.csproj.CoreCompileInputs.cache
+C:\Users\16410\プロジェクト\C-_practice\idiomu_josekipatern\chapter5\enshu1\obj\Debug\net9.0\enshu1.sourcelink.json
+C:\Users\16410\プロジェクト\C-_practice\idiomu_josekipatern\chapter5\enshu1\bin\Debug\net9.0\enshu1.exe
+C:\Users\16410\プロジェクト\C-_practice\idiomu_josekipatern\chapter5\enshu1\bin\Debug\net9.0\enshu1.deps.json
+C:\Users\16410\プロジェクト\C-_practice\idiomu_josekipatern\chapter5\enshu1\bin\Debug\net9.0\enshu1.runtimeconfig.json
+C:\Users\16410\プロジェクト\C-_practice\idiomu_josekipatern\chapter5\enshu1\bin\Debug\net9.0\enshu1.dll
+C:\Users\16410\プロジェクト\C-_practice\idiomu_josekipatern\chapter5\enshu1\bin\Debug\net9.0\enshu1.pdb
+C:\Users\16410\プロジェクト\C-_practice\idiomu_josekipatern\chapter5\enshu1\obj\Debug\net9.0\enshu1.dll
+C:\Users\16410\プロジェクト\C-_practice\idiomu_josekipatern\chapter5\enshu1\obj\Debug\net9.0\refint\enshu1.dll
+C:\Users\16410\プロジェクト\C-_practice\idiomu_josekipatern\chapter5\enshu1\obj\Debug\net9.0\enshu1.pdb
+C:\Users\16410\プロジェクト\C-_practice\idiomu_josekipatern\chapter5\enshu1\obj\Debug\net9.0\enshu1.genruntimeconfig.cache
+C:\Users\16410\プロジェクト\C-_practice\idiomu_josekipatern\chapter5\enshu1\obj\Debug\net9.0\ref\enshu1.dll

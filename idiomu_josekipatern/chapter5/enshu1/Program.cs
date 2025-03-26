@@ -39,5 +39,15 @@ public class Program
         Console.WriteLine(nextMonth.ToString()); // 出力: 2010年12月
 
         Console.WriteLine($"Is 21st Century: {yearmonth.Is21Century}"); // 出力: Is 21st Century: True
+
+        var yearmonth2 = new List<YearMonth>
+        {
+            new yearmonth2(1234,10),
+            new yearmonth2(1235,6),
+            new yearmonth2(1236,7),
+            new yearmonth2(1237,8),
+            new yearmonth2(1238,9)
+        };
+        yearmonth2.ForEach(n => Console.WriteLine($"[{n}]"));
     }
 }

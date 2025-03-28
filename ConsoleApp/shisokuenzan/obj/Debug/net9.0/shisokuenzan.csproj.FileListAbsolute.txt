@@ -1,0 +1,15 @@
+C:\Users\16410\プロジェクト\C-_practice\ConsoleApp\shisokuenzan\obj\Debug\net9.0\shisokuenzan.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\16410\プロジェクト\C-_practice\ConsoleApp\shisokuenzan\obj\Debug\net9.0\shisokuenzan.AssemblyInfoInputs.cache
+C:\Users\16410\プロジェクト\C-_practice\ConsoleApp\shisokuenzan\obj\Debug\net9.0\shisokuenzan.AssemblyInfo.cs
+C:\Users\16410\プロジェクト\C-_practice\ConsoleApp\shisokuenzan\obj\Debug\net9.0\shisokuenzan.csproj.CoreCompileInputs.cache
+C:\Users\16410\プロジェクト\C-_practice\ConsoleApp\shisokuenzan\obj\Debug\net9.0\shisokuenzan.sourcelink.json
+C:\Users\16410\プロジェクト\C-_practice\ConsoleApp\shisokuenzan\bin\Debug\net9.0\shisokuenzan.exe
+C:\Users\16410\プロジェクト\C-_practice\ConsoleApp\shisokuenzan\bin\Debug\net9.0\shisokuenzan.deps.json
+C:\Users\16410\プロジェクト\C-_practice\ConsoleApp\shisokuenzan\bin\Debug\net9.0\shisokuenzan.runtimeconfig.json
+C:\Users\16410\プロジェクト\C-_practice\ConsoleApp\shisokuenzan\bin\Debug\net9.0\shisokuenzan.dll
+C:\Users\16410\プロジェクト\C-_practice\ConsoleApp\shisokuenzan\bin\Debug\net9.0\shisokuenzan.pdb
+C:\Users\16410\プロジェクト\C-_practice\ConsoleApp\shisokuenzan\obj\Debug\net9.0\shisokuenzan.dll
+C:\Users\16410\プロジェクト\C-_practice\ConsoleApp\shisokuenzan\obj\Debug\net9.0\refint\shisokuenzan.dll
+C:\Users\16410\プロジェクト\C-_practice\ConsoleApp\shisokuenzan\obj\Debug\net9.0\shisokuenzan.pdb
+C:\Users\16410\プロジェクト\C-_practice\ConsoleApp\shisokuenzan\obj\Debug\net9.0\shisokuenzan.genruntimeconfig.cache
+C:\Users\16410\プロジェクト\C-_practice\ConsoleApp\shisokuenzan\obj\Debug\net9.0\ref\shisokuenzan.dll

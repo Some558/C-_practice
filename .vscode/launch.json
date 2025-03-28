@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": ".NET Core Launch (console)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/ConsoleApp/shisokuenzan/bin/Debug/net9.0/shisokuenzan.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/ConsoleApp/shisokuenzan",
+            "console": "internalConsole",
+            "stopAtEntry": false
+        }
+    ]
+}

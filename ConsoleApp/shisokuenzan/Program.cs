@@ -7,11 +7,13 @@
         var enzanshi = Console.ReadLine();
         Console.WriteLine("数値をスペース空けて入力してください。");
         var baseValue = Console.ReadLine();
+        var numbers = baseValue.Split(' ').Select(int.Parse).ToArray();
+
         var lastValue = 0;
         var middleValue = 1;
         if (enzanshi == "+")
         {
-            foreach (var value in baseValue)
+            foreach (var value in numbers)
             {
                 lastValue += value;
             }
@@ -19,7 +21,7 @@
         }
         if (enzanshi == "-")
         {
-            foreach (var value in baseValue)
+            foreach (var value in numbers)
             {
                 lastValue -= value;
             }
@@ -27,7 +29,7 @@
         }
         if (enzanshi == "*")
         {
-            foreach (var value in baseValue)
+            foreach (var value in numbers)
             {
                 middleValue *= value;
             }
@@ -35,7 +37,7 @@
         }
         if (enzanshi == "/")
         {
-            foreach (var value in baseValue)
+            foreach (var value in numbers)
             {
                 middleValue /= value;
             }

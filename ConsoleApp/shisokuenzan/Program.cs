@@ -1,50 +1,54 @@
-﻿class Program
+﻿using System;
+using System.Linq;
+
+class Program
 {
-    static void Main(params string[] args)
+    static void Main(string[] args)
     {
-        // コンソールに演算子を入力。
-        Console.WriteLine("演算子を一つ入力してください。");
-        var enzanshi = Console.ReadLine();
-        Console.WriteLine("数値をスペース空けて入力してください。");
-        var baseValue = Console.ReadLine();
-        var numbers = baseValue.Split(' ').Select(int.Parse).ToArray();
+        try
+        {
+            // 演算子の入力
+            Console.WriteLine("演算子を一つ入力してください (+, -, *, /):");
+            var operatorInput = Console.ReadLine();
 
-        var lastValue = 0;
-        var middleValue = 1;
-        if (enzanshi == "+")
-        {
-            foreach (var value in numbers)
-            {
-                lastValue += value;
-            }
-            Console.WriteLine($"演算結果は、{lastValue}です");
-        }
-        if (enzanshi == "-")
-        {
-            foreach (var value in numbers)
-            {
-                lastValue -= value;
-            }
-            Console.WriteLine($"演算結果は、{lastValue}です");
-        }
-        if (enzanshi == "*")
-        {
-            foreach (var value in numbers)
-            {
-                middleValue *= value;
-            }
-            Console.WriteLine($"演算結果は、{middleValue}です");
-        }
-        if (enzanshi == "/")
-        {
-            foreach (var value in numbers)
-            {
-                middleValue /= value;
-            }
-            Console.WriteLine($"演算結果は、{middleValue}です");
-        }
+            // 数値の入力
+            Console.WriteLine("数値をスペース区切りで入力してください:");
+            var numbers = Console.ReadLine()
+                .Split(' ')
+                .Select(int.Parse)
+                .ToArray();
 
-        // 数字を複数入力し、その数値に対して先ほどの演算子を適用
-        // 適用結果をコンソールに表示する
+            // 演算結果の計算と表示
+            var result = Calculate(operatorInput, numbers);
+            Console.WriteLine($"演算結果は: {result}");
+        }
+        catch (FormatException)
+        {
+            Console.WriteLine("入力が正しくありません。数値をスペース区切りで入力してください。");
+        }
+        catch (DivideByZeroException)
+        {
+            Console.WriteLine("ゼロで割ることはできません。");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"エラーが発生しました: {ex.Message}");
+        }
+    }
+
+    static int Calculate(string operatorInput, int[] numbers)
+    {
+        return operatorInput switch
+        {
+            "+" => numbers.Sum(),
+            "-" => numbers.Aggregate((a, b) => a - b),
+            "*" => numbers.Aggregate((a, b) => a * b),
+            "/" => numbers.Aggregate((a, b) =>
+            {
+                if (b == 0) throw new DivideByZeroException();
+                return a / b;
+            }),
+            _ => throw new InvalidOperationException("無効な演算子が入力されました。")
+        };
     }
 }

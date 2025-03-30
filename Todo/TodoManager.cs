@@ -78,7 +78,7 @@ public class TodoManager
         try
         {
             string json = System.Text.Json.JsonSerializer.Serialize(_tasks);
-            File.WriteAllText(_filePath, json);
+            File.WriteAllText(_filePath, $"{json}{Environment.NewLine}");
         }
         catch (Exception ex)
         {

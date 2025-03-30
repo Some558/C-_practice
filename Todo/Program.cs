@@ -27,12 +27,14 @@ class Program
                     string description = Console.ReadLine();
                     todoManager.AddTask(title, description);
                     break;
+                case "0":
+                    exit = true;
+                    break;
             }
 
             // ユーザーの選択に基づいて処理を実行
             // ...
-            todoManager.SaveToFile(); // 操作後にデータを保存
-            exit = true;
+            todoManager.SaveToFile(); // 操作後にデータを保存        
         }
     }
 

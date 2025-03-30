@@ -21,11 +21,16 @@ class Program
                     todoManager.GetAllTasks();
                     break;
                 case "2":
-                    Console.Write("タスクのタイトルを入力");
+                    Console.WriteLine("タスクのタイトルを入力");
                     string title = Console.ReadLine();
-                    Console.Write("タスクの説明");
+                    Console.WriteLine("タスクの説明");
                     string description = Console.ReadLine();
                     todoManager.AddTask(title, description);
+                    break;
+                case "4":
+                    Console.WriteLine("どのタスクを削除しますか？（番号を入力[例：1]）");
+                    var deleteTask = int.Parse(Console.ReadLine());
+                    todoManager.DeleteTask(deleteTask);
                     break;
                 case "0":
                     exit = true;

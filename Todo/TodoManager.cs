@@ -24,6 +24,7 @@ public class TodoManager
         return task;
     }
 
+    // 全てのタスクを読み込む
     public void GetAllTasks()
     {
         try
@@ -59,6 +60,7 @@ public class TodoManager
         return _tasks.FirstOrDefault(t => t.Id == id);
     }
 
+    // タスクを削除する
     public bool DeleteTask(int id)
     {
         var task = GetTask(id);
@@ -69,8 +71,6 @@ public class TodoManager
         }
         return false;
     }
-    // 他のメソッド（タスク取得、編集、削除、完了/未完了の切り替え）
-    // ...
 
     // JSON保存メソッド
     public void SaveToFile()

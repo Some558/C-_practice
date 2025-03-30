@@ -20,12 +20,38 @@ public class TodoManager
         var task = new TodoTask(_nextId, title, description);
         _tasks.Add(task);
         _nextId++;
+        Console.WriteLine("タスクが追加されました");
         return task;
     }
 
-    public List<TodoTask> GetAllTasks()
+    public void GetAllTasks()
     {
-        return _tasks;
+        try
+        {
+            if (File.Exists(_filePath))
+            {
+                // ファイルの内容を読み込む
+                string todoJson = File.ReadAllText(_filePath);
+
+                // JSONをC#のオブジェクトに変換
+                _tasks = JsonConvert.DeserializeObject<List<TodoTask>>(todoJson) ?? new List<TodoTask>();
+
+                // タスクを1つずつ表示
+                Console.WriteLine("現在のタスク一覧:");
+                foreach (var task in _tasks)
+                {
+                    Console.WriteLine($"Id: {task.Id}, Title: {task.Title}, Description: {task.Description}, IsCompleted: {task.IsCompleted}");
+                }
+            }
+            else
+            {
+                Console.WriteLine("tasks.json ファイルが存在しません。");
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"エラー：タスクの読み込みに失敗しました。{ex.Message}");
+        }
     }
 
     public TodoTask GetTask(int id)

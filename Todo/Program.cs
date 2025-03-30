@@ -1,4 +1,6 @@
-﻿class Program
+﻿using System.Reflection;
+
+class Program
 {
     static TodoManager todoManager;
 
@@ -18,7 +20,13 @@
                 case "1":
                     todoManager.GetAllTasks();
                     break;
-
+                case "2":
+                    Console.Write("タスクのタイトルを入力");
+                    string title = Console.ReadLine();
+                    Console.Write("タスクの説明");
+                    string description = Console.ReadLine();
+                    todoManager.AddTask(title, description);
+                    break;
             }
 
             // ユーザーの選択に基づいて処理を実行

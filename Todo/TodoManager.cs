@@ -1,5 +1,6 @@
 // タスク管理クラス
 using System.Linq.Expressions;
+using Newtonsoft.Json;
 
 public class TodoManager
 {
@@ -16,8 +17,9 @@ public class TodoManager
     // タスク追加メソッド
     public TodoTask AddTask(string title, string description = "")
     {
-        var task = new TodoTask(_nextId++, title, description);
+        var task = new TodoTask(_nextId, title, description);
         _tasks.Add(task);
+        _nextId++;
         return task;
     }
 
@@ -61,6 +63,25 @@ public class TodoManager
     // JSONからの読み込みメソッド
     public void LoadFromFile()
     {
-        // ファイルが存在すれば読み込む
+        try
+        {
+            if (File.Exists(_filePath))
+            {
+                string todoJson = File.ReadAllText(_filePath);
+                _tasks = JsonConvert.DeserializeObject<List<TodoTask>>(todoJson) ?? new List<TodoTask>();
+                // Anyは空ではない場合にtrueを返す
+                // Idの最大値を確認し、その数値に+1したものをnextIdとする。
+                _nextId = _tasks.Any() ? _tasks.Max(t => t.Id) + 1 : 1;
+            }
+            else
+            {
+                _tasks = new List<TodoTask>();
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"エラー：ファイルの読み込みに失敗しました。{ex.Message}");
+            _tasks = new List<TodoTask>();
+        }
     }
 }

@@ -24,6 +24,18 @@ public class TodoManager
         return task;
     }
 
+    // タスクの編集
+    public void EditTask(TodoTask task)
+    {
+        Console.WriteLine("タイトルを入力してください");
+        var title = Console.ReadLine();
+        Console.WriteLine("タスクの説明を入力してください");
+        var description = Console.ReadLine();
+        task.Title = title;
+        task.Description = description;
+        Console.WriteLine("タスクの編集が完了しました");
+    }
+
     // 全てのタスクを読み込む
     public void GetAllTasks()
     {

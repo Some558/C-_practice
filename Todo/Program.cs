@@ -21,11 +21,20 @@ class Program
                     todoManager.GetAllTasks();
                     break;
                 case "2":
-                    Console.WriteLine("タスクのタイトルを入力");
+                    Console.WriteLine("タスクのタイトルを入力してください");
                     string title = Console.ReadLine();
-                    Console.WriteLine("タスクの説明");
+                    Console.WriteLine("タスクの説明をしてください");
                     string description = Console.ReadLine();
                     todoManager.AddTask(title, description);
+                    break;
+                case "3":
+                    Console.WriteLine("編集したいタスクのIDを入力してください");
+                    // 入力された値をint型にしてeditTaskに代入
+                    var editTask = int.Parse(Console.ReadLine());
+                    // GetTaskメソッドによって指定のIDが見つかれば、そのIDのリストを返してtaskに代入
+                    var task = todoManager.GetTask(editTask);
+                    // taskはリスト型の状態でEditTaskに渡す
+                    todoManager.EditTask(task);
                     break;
                 case "4":
                     Console.WriteLine("どのタスクを削除しますか？（番号を入力[例：1]）");

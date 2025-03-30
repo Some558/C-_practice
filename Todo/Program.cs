@@ -13,22 +13,18 @@
             DisplayMenu();
             var choice = Console.ReadLine();
 
+            switch (choice)
+            {
+                case "1":
+                    todoManager.GetAllTasks();
+                    break;
+
+            }
+
             // ユーザーの選択に基づいて処理を実行
             // ...
-            try
-            {
-                if (choice == "1")
-                {
-
-                }
-
-            }
-            catch
-            {
-
-            }
-
             todoManager.SaveToFile(); // 操作後にデータを保存
+            exit = true;
         }
     }
 

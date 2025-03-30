@@ -13,3 +13,7 @@ C:\Users\16410\プロジェクト\C-_practice\Todo\obj\Debug\net9.0\refint\Todo.
 C:\Users\16410\プロジェクト\C-_practice\Todo\obj\Debug\net9.0\Todo.pdb
 C:\Users\16410\プロジェクト\C-_practice\Todo\obj\Debug\net9.0\Todo.genruntimeconfig.cache
 C:\Users\16410\プロジェクト\C-_practice\Todo\obj\Debug\net9.0\ref\Todo.dll
+C:\Users\16410\プロジェクト\C-_practice\Todo\bin\Debug\net9.0\Newtonsoft.Json.dll
+C:\Users\16410\プロジェクト\C-_practice\Todo\bin\Debug\net9.0\System.Text.Json.dll
+C:\Users\16410\プロジェクト\C-_practice\Todo\obj\Debug\net9.0\Todo.csproj.AssemblyReference.cache
+C:\Users\16410\プロジェクト\C-_practice\Todo\obj\Debug\net9.0\Todo.csproj.Up2Date

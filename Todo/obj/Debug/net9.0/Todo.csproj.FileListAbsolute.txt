@@ -1,0 +1,15 @@
+C:\Users\16410\プロジェクト\C-_practice\Todo\bin\Debug\net9.0\Todo.exe
+C:\Users\16410\プロジェクト\C-_practice\Todo\bin\Debug\net9.0\Todo.deps.json
+C:\Users\16410\プロジェクト\C-_practice\Todo\bin\Debug\net9.0\Todo.runtimeconfig.json
+C:\Users\16410\プロジェクト\C-_practice\Todo\bin\Debug\net9.0\Todo.dll
+C:\Users\16410\プロジェクト\C-_practice\Todo\bin\Debug\net9.0\Todo.pdb
+C:\Users\16410\プロジェクト\C-_practice\Todo\obj\Debug\net9.0\Todo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\16410\プロジェクト\C-_practice\Todo\obj\Debug\net9.0\Todo.AssemblyInfoInputs.cache
+C:\Users\16410\プロジェクト\C-_practice\Todo\obj\Debug\net9.0\Todo.AssemblyInfo.cs
+C:\Users\16410\プロジェクト\C-_practice\Todo\obj\Debug\net9.0\Todo.csproj.CoreCompileInputs.cache
+C:\Users\16410\プロジェクト\C-_practice\Todo\obj\Debug\net9.0\Todo.sourcelink.json
+C:\Users\16410\プロジェクト\C-_practice\Todo\obj\Debug\net9.0\Todo.dll
+C:\Users\16410\プロジェクト\C-_practice\Todo\obj\Debug\net9.0\refint\Todo.dll
+C:\Users\16410\プロジェクト\C-_practice\Todo\obj\Debug\net9.0\Todo.pdb
+C:\Users\16410\プロジェクト\C-_practice\Todo\obj\Debug\net9.0\Todo.genruntimeconfig.cache
+C:\Users\16410\プロジェクト\C-_practice\Todo\obj\Debug\net9.0\ref\Todo.dll

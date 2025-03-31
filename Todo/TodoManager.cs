@@ -14,27 +14,7 @@ public class TodoManager
         _filePath = filePath;
     }
 
-    // タスク追加メソッド
-    public TodoTask AddTask(string title, string description = "")
-    {
-        var task = new TodoTask(_nextId, title, description);
-        _tasks.Add(task);
-        _nextId++;
-        Console.WriteLine("タスクが追加されました");
-        return task;
-    }
 
-    // タスクの編集
-    public void EditTask(TodoTask task)
-    {
-        Console.WriteLine("タイトルを入力してください");
-        var title = Console.ReadLine();
-        Console.WriteLine("タスクの説明を入力してください");
-        var description = Console.ReadLine();
-        task.Title = title;
-        task.Description = description;
-        Console.WriteLine("タスクの編集が完了しました");
-    }
 
     // 全てのタスクを読み込む
     public void GetAllTasks()
@@ -72,6 +52,28 @@ public class TodoManager
         return _tasks.FirstOrDefault(t => t.Id == id);
     }
 
+    // タスク追加メソッド
+    public TodoTask AddTask(string title, string description = "")
+    {
+        var task = new TodoTask(_nextId, title, description);
+        _tasks.Add(task);
+        _nextId++;
+        Console.WriteLine("タスクが追加されました");
+        return task;
+    }
+    
+    // タスクの編集
+    public void EditTask(TodoTask task)
+    {
+        Console.WriteLine("タイトルを入力してください");
+        var title = Console.ReadLine();
+        Console.WriteLine("タスクの説明を入力してください");
+        var description = Console.ReadLine();
+        task.Title = title;
+        task.Description = description;
+        Console.WriteLine("タスクの編集が完了しました");
+    }
+
     // タスクを削除する
     public bool DeleteTask(int id)
     {
@@ -82,6 +84,26 @@ public class TodoManager
             return true;
         }
         return false;
+    }
+
+    // タスクの状態によって完了、未完了を切り替える
+    public void ChangeTask(int id)
+    {
+        var task = GetTask(id);
+        if(task != null)
+        {
+            if(task.IsCompleted == false)
+            {
+                task.IsCompleted = true;
+            }
+            else
+            {
+                task.IsCompleted = false;
+            }
+        }
+        Console.WriteLine("指定のIDは存在しません");
+        // bool IsCompleted の値をtrueにする
+        // IDを引数としてもらい、そのリストのisCompletedをtrueにする
     }
 
     // JSON保存メソッド

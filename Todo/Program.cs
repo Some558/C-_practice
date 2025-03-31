@@ -41,6 +41,11 @@ class Program
                     var deleteTask = int.Parse(Console.ReadLine());
                     todoManager.DeleteTask(deleteTask);
                     break;
+                case "5":
+                    Console.WriteLine("どのタスクのステータスを変更しますか");
+                    var changeTask = int.Parse(Console.ReadLine());
+                    todoManager.ChangeTask(changeTask);
+                    break;
                 case "0":
                     exit = true;
                     break;

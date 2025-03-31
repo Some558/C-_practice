@@ -42,7 +42,7 @@ class Program
                     todoManager.DeleteTask(deleteTask);
                     break;
                 case "5":
-                    Console.WriteLine("どのタスクのステータスを変更しますか");
+                    Console.WriteLine("どのタスクのステータスを変更しますか（番号を入力[例：1]）");
                     var changeTask = int.Parse(Console.ReadLine());
                     todoManager.ChangeTask(changeTask);
                     break;

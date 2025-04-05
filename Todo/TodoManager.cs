@@ -101,7 +101,10 @@ public class TodoManager
                 task.IsCompleted = false;
             }
         }
-        Console.WriteLine("指定のIDは存在しません");
+        else
+        {
+            Console.WriteLine("指定のIDは存在しません");
+        }
         // bool IsCompleted の値をtrueにする
         // IDを引数としてもらい、そのリストのisCompletedをtrueにする
     }

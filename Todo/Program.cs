@@ -18,7 +18,7 @@ class Program
             switch (choice)
             {
                 case "1":
-                    todoManager.GetAllTasks();
+                    todoManager.GetCompleteTasks();
                     break;
                 case "2":
                     Console.WriteLine("タスクのタイトルを入力してください");
@@ -46,6 +46,9 @@ class Program
                     var changeTask = int.Parse(Console.ReadLine());
                     todoManager.ChangeTask(changeTask);
                     break;
+                case "6":
+                    todoManager.GetInCompleteTasks();
+                    break;
                 case "0":
                     exit = true;
                     break;
@@ -65,6 +68,7 @@ class Program
         Console.WriteLine("3. タスクを編集");
         Console.WriteLine("4. タスクを削除");
         Console.WriteLine("5. タスクのステータスを切り替え");
+        Console.WriteLine("6. 完了済のタスク一覧を表示");
         Console.WriteLine("0. 終了");
         Console.Write("選択してください: ");
     }

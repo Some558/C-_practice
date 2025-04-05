@@ -14,10 +14,8 @@ public class TodoManager
         _filePath = filePath;
     }
 
-
-
     // 全てのタスクを読み込む
-    public void GetAllTasks()
+    public void GetCompleteTasks()
     {
         try
         {
@@ -29,11 +27,24 @@ public class TodoManager
                 // JSONをC#のオブジェクトに変換
                 _tasks = JsonConvert.DeserializeObject<List<TodoTask>>(todoJson) ?? new List<TodoTask>();
 
-                // タスクを1つずつ表示
-                Console.WriteLine("現在のタスク一覧:");
-                foreach (var task in _tasks)
+                // 一つでもfalseがあれば、anyにtrueが入る
+                var any = _tasks.Any(x => x.IsCompleted == false);
+                // 一つでもfalse（未完了）があればこっちを表示する
+                if (any == true)
                 {
-                    Console.WriteLine($"Id: {task.Id}, Title: {task.Title}, Description: {task.Description}, IsCompleted: {task.IsCompleted}");
+                    Console.WriteLine("未完了のタスクはこちらです。");
+                    foreach (var task in _tasks)
+                    {
+                        if (task.IsCompleted == false)
+                        {
+                            Console.WriteLine($"Id: {task.Id}, Title: {task.Title}, Description: {task.Description}, IsCompleted: {task.IsCompleted}");
+                        }
+                    }
+                }
+                // 全てtrue（完了）であればこっちを表示する
+                else
+                {
+                    Console.WriteLine("未完了のタスクはありません");
                 }
             }
             else
@@ -61,7 +72,7 @@ public class TodoManager
         Console.WriteLine("タスクが追加されました");
         return task;
     }
-    
+
     // タスクの編集
     public void EditTask(TodoTask task)
     {
@@ -90,9 +101,9 @@ public class TodoManager
     public void ChangeTask(int id)
     {
         var task = GetTask(id);
-        if(task != null)
+        if (task != null)
         {
-            if(task.IsCompleted == false)
+            if (task.IsCompleted == false)
             {
                 task.IsCompleted = true;
             }
@@ -107,6 +118,40 @@ public class TodoManager
         }
         // bool IsCompleted の値をtrueにする
         // IDを引数としてもらい、そのリストのisCompletedをtrueにする
+    }
+
+    public void GetInCompleteTasks()
+    {
+        try
+        {
+            if (File.Exists(_filePath))
+            {
+                // ファイルの内容を読み込む
+                string todoJson = File.ReadAllText(_filePath);
+
+                // JSONをC#のオブジェクトに変換
+                _tasks = JsonConvert.DeserializeObject<List<TodoTask>>(todoJson) ?? new List<TodoTask>();
+
+                // タスクを1つずつ表示
+                Console.WriteLine("現在のタスク一覧:");
+                Console.WriteLine("完了済のタスクはこちらです。");
+                foreach (var task in _tasks)
+                {
+                    if (task.IsCompleted == true)
+                    {
+                        Console.WriteLine($"Id: {task.Id}, Title: {task.Title}, Description: {task.Description}, IsCompleted: {task.IsCompleted}");
+                    }
+                }
+            }
+            else
+            {
+                Console.WriteLine("tasks.json ファイルが存在しません。");
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"エラー：タスクの読み込みに失敗しました。{ex.Message}");
+        }
     }
 
     // JSON保存メソッド

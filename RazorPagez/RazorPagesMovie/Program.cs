@@ -1,26 +1,31 @@
-// アプリをビルドするコード
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using RazorPagesMovie.Data;
 var builder = WebApplication.CreateBuilder(args);
-// アプリでRazorPagesが使えるようになる
+
+// Add services to the container.
 builder.Services.AddRazorPages();
-// 依存性注入
+builder.Services.AddDbContext<RazorPagesMovieContext>(options =>
+    options.UseSqlite(builder.Configuration.GetConnectionString("RazorPagesMovieContext") ?? throw new InvalidOperationException("Connection string 'RazorPagesMovieContext' not found.")));
+
 var app = builder.Build();
 
-// 開発環境ではない場合の処理
+// Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Error");
+    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
-// https化
+
 app.UseHttpsRedirection();
-// ルーティングミドルウェア追加
+app.UseStaticFiles();
+
 app.UseRouting();
-// 認証機能の追加
+
 app.UseAuthorization();
-// 静的ファイルをブラウザに提供するための設定
+
 app.MapStaticAssets();
-// Razor Pagesのルーティング化
-app.MapRazorPages()
-   .WithStaticAssets();
-// アプリケーションの起動
+app.MapRazorPages();
+
 app.Run();

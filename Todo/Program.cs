@@ -63,7 +63,7 @@ class Program
     static void DisplayMenu()
     {
         Console.WriteLine("\n===== ToDo List Manager =====");
-        Console.WriteLine("1. タスク一覧を表示");
+        Console.WriteLine("1. 未完了のタスク一覧を表示");
         Console.WriteLine("2. 新しいタスクを追加");
         Console.WriteLine("3. タスクを編集");
         Console.WriteLine("4. タスクを削除");

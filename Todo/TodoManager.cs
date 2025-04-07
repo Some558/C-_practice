@@ -1,6 +1,6 @@
 // タスク管理クラス
 using System.Linq.Expressions;
-using Newtonsoft.Json;
+using System.Text.Json;
 
 public class TodoManager
 {
@@ -25,7 +25,7 @@ public class TodoManager
                 string todoJson = File.ReadAllText(_filePath);
 
                 // JSONをC#のオブジェクトに変換
-                _tasks = JsonConvert.DeserializeObject<List<TodoTask>>(todoJson) ?? new List<TodoTask>();
+                _tasks = JsonSerializer.Deserialize<List<TodoTask>>(todoJson) ?? new List<TodoTask>();
 
                 // 一つでもfalseがあれば、anyにtrueが入る
                 var any = _tasks.Any(x => x.IsCompleted == false);
@@ -126,11 +126,11 @@ public class TodoManager
         {
             if (File.Exists(_filePath))
             {
-                // ファイルの内容を読み込む
+                // テキストファイルを読み込み、すべてのテキストを読み込む
                 string todoJson = File.ReadAllText(_filePath);
 
                 // JSONをC#のオブジェクトに変換
-                _tasks = JsonConvert.DeserializeObject<List<TodoTask>>(todoJson) ?? new List<TodoTask>();
+                _tasks = JsonSerializer.Deserialize<List<TodoTask>>(todoJson) ?? new List<TodoTask>();
 
                 // タスクを1つずつ表示
                 Console.WriteLine("完了済のタスクはこちらです。");
@@ -158,7 +158,7 @@ public class TodoManager
     {
         try
         {
-            string json = System.Text.Json.JsonSerializer.Serialize(_tasks);
+            string json = JsonSerializer.Serialize(_tasks);
             File.WriteAllText(_filePath, $"{json}{Environment.NewLine}");
         }
         catch (Exception ex)
@@ -175,7 +175,7 @@ public class TodoManager
             if (File.Exists(_filePath))
             {
                 string todoJson = File.ReadAllText(_filePath);
-                _tasks = JsonConvert.DeserializeObject<List<TodoTask>>(todoJson) ?? new List<TodoTask>();
+                _tasks = JsonSerializer.Deserialize<List<TodoTask>>(todoJson) ?? new List<TodoTask>();
                 // Anyは空ではない場合にtrueを返す
                 // Idの最大値を確認し、その数値に+1したものをnextIdとする。
                 _nextId = _tasks.Any() ? _tasks.Max(t => t.Id) + 1 : 1;

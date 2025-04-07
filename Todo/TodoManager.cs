@@ -24,7 +24,7 @@ public class TodoManager
                 // ファイルの内容を読み込む
                 string todoJson = File.ReadAllText(_filePath);
 
-                // JSONをC#のオブジェクトに変換
+                // JSONをC#のオブジェクトにDeserialize
                 _tasks = JsonSerializer.Deserialize<List<TodoTask>>(todoJson) ?? new List<TodoTask>();
 
                 // 一つでもfalseがあれば、anyにtrueが入る
@@ -60,7 +60,7 @@ public class TodoManager
 
     public TodoTask GetTask(int id)
     {
-        return _tasks.FirstOrDefault(t => t.Id == id);
+        return _tasks.Find(t => t.Id == id);
     }
 
     // タスク追加メソッド

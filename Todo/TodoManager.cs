@@ -133,7 +133,6 @@ public class TodoManager
                 _tasks = JsonConvert.DeserializeObject<List<TodoTask>>(todoJson) ?? new List<TodoTask>();
 
                 // タスクを1つずつ表示
-                Console.WriteLine("現在のタスク一覧:");
                 Console.WriteLine("完了済のタスクはこちらです。");
                 foreach (var task in _tasks)
                 {

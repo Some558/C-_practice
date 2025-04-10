@@ -1,5 +1,5 @@
-## LINQとは
 Language Integrated Queryの略
+## LINQとは
 LINQを使えば、オブジェクトやデーターベース、XMLなどさまざまなデータに対して問い合わせ処理が可能になる。
 遅延実行されるという特徴があり、データが必要になったときにクエリが実行される。
 即時実行したい場合にはToArray,ToListを用いる
@@ -22,4 +22,7 @@ foreach(string s in query)
 ## シーケンス
 IEnumerable<T>型のデータであるときに使われる
 
-###
+### どんなリンクがあるのかまとめ
+Exists
+Finf
+FirstOrDefault
